@@ -1,0 +1,10 @@
+curl -i -H "Content-Type: application/json" -X POST -d "{\"id\":\"5\",\"name\":\"Kid Buu\",\"race\":\"Majin\
+"}" http://localhost/proyectos-phalcon/prueba/curl/post
+
+curl -i -H "Content-Type:application/json" -X GET http://localhost/proyectos-phalcon/prueba/curl/get
+
+curl -i -H "Content-Type:application/json" -X PUT -d "{\"name\":\"Buu\",\"race\":\"Majin\"}" http://localhos
+t/proyectos-phalcon/prueba/curl/put/5
+
+curl -i -H "Content-Type:application/json" -X DELETE http://localhost/proyectos-phalcon/prueba/curl/delete/6
+
